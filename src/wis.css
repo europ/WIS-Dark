@@ -99,6 +99,19 @@ html body table tbody [bgcolor="#aff7af"] {
 html body table tbody [bgcolor="#ff7f7f"] {
   background: #773b3b;
 }
+html body table tbody tr td table.stbl tbody tr td {
+  color: black;
+}
+html body table tbody tr td table tbody tr td table.stbl tbody tr td {
+  color:black;
+}
+html body table tbody tr td form table tbody tr td input.forminput {
+  background-color: white !important;
+}
+html body table tbody tr td div form table tbody tr td input.forminput {
+  color: white;
+  background-color: #282828 !important;
+}
 html body table tbody tr td form table tbody tr td b a.bar:link {
   color: #00b7ff;
 }
