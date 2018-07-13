@@ -1,12 +1,14 @@
 @-moz-document domain("wis.fit.vutbr.cz") {
-
+html {
+  background-color: #000;
+  color: white;
+}
 html body table tbody tr td div#clock {
   color: #fff;
   font-weight: bolder;
 }
 body,td,th,iframe,.text {
   color: white;
-  background-color: #000;
 }
 a b {
   color: #009fff;
@@ -36,6 +38,9 @@ a.stabs {
 }
 a.stabs:hover {
   color: white;
+}
+html body table.noprint tbody tr td a img.FITlogo {
+  margin-left: -1px;
 }
 html body table.noprint tbody tr td {
   color: white;
@@ -70,6 +75,40 @@ a.sbtn:hover,a.sbtn:focus,a.sbtnr:hover,a.sbtnr:focus,a.sbtno:hover,a.sbtno:focu
 }
 .green {
   color: #00d900 !important;
+}
+/* Recommended - Povinný */
+html body table tbody [bgcolor="#ffdead"] {
+  background: #5b4b39;
+}
+/* Elective - Volitelný */
+html body table tbody [bgcolor="#f7f7af"] {
+  background: #5d5d40;
+}
+html body table tbody [bgcolor="#ff8080"] {
+  background: #ac5555;
+}
+html body table tbody [bgcolor="#ff0000"] {
+  background: #df0000;
+}
+html body table tbody [bgcolor="#add8e6"] {
+  background: #5a7077;
+}
+html body table tbody [bgcolor="#aff7af"] {
+  background: #608860;
+}
+html body table tbody [bgcolor="#ff7f7f"] {
+  background: #773b3b;
+}
+html body table tbody tr td form table tbody tr td b a.bar:link {
+  color: #00b7ff;
+}
+html body table tbody tr td form table tbody tr td b a.bar:visited {
+  color: #0085dd;
+}
+input {
+  color:white;
+  background-color: grey !important;
+  border-color: white;
 }
 
 }
