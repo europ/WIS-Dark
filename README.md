@@ -2,3 +2,5 @@
 
 # WIS-Dark
 Dark WIS style
+
+![sample-home.png](https://raw.githubusercontent.com/europ/WIS-Dark/master/img/sample-home.png)
