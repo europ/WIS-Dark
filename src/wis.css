@@ -1,0 +1,75 @@
+@-moz-document domain("wis.fit.vutbr.cz") {
+
+html body table tbody tr td div#clock {
+  color: #fff;
+  font-weight: bolder;
+}
+body,td,th,iframe,.text {
+  color: white;
+  background-color: #000;
+}
+a b {
+  color: #009fff;
+}
+a.menu2:visited {
+  color: #2c85bb;
+}
+A:link {
+  color: #009fff;
+}
+A:visited {
+  color: #2c85bb;
+}
+address {
+  color: white;
+}
+a.stab {
+  color: white;
+  background-color: #00a9e0;
+}
+a.stab:hover {
+  background-color: #006f92;
+}
+a.stabs {
+  color: #3fb2ff;
+  background-color: black;
+}
+a.stabs:hover {
+  color: white;
+}
+html body table.noprint tbody tr td {
+  color: white;
+  background-color: #00a9e0;
+  border-left: 1px solid white;
+}
+html body table.noprint tbody tr td:hover {
+  background-color: #006f92;
+}
+a.sbtn,a.sbtnr,a.sbtng,a.sbtno {
+   color:white;
+  box-shadow: none;
+}
+a.sbtn {
+  background: #2b80b9;
+}
+a.sbtnr {
+  background: #fa503f;
+}
+a.sbtng {
+  background: #149b5d;
+}
+a.sbtno {
+  background: #3498db;
+  width: 500px;
+}
+a.sbtn:hover,a.sbtn:focus,a.sbtnr:hover,a.sbtnr:focus,a.sbtno:hover,a.sbtno:focus, a.sbtng:hover,a.sbtng:focus {
+  color: #dfdf0c;
+}
+.red {
+  color: #f00 !important;
+}
+.green {
+  color: #00d900 !important;
+}
+
+}
